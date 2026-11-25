@@ -1,0 +1,27 @@
+{
+  "geode": "5.0.0",
+  "gd": {
+    "win": "2.2081"
+  },
+  "version": "v1.0.0",
+  "id": "moi.death-inputs",
+  "name": "Death Inputs",
+  "developer": "moi",
+  "description": "Affiche les clics, les relâchements et la trajectoire entre ta mort et le respawn.",
+  "settings": {
+    "history-seconds": {
+      "type": "float",
+      "default": 3.0,
+      "min": 0.5,
+      "max": 30.0,
+      "name": "Durée affichée (secondes)",
+      "description": "Combien de secondes avant la mort sont affichées."
+    },
+    "show-path": {
+      "type": "bool",
+      "default": true,
+      "name": "Afficher la trajectoire",
+      "description": "Trace le chemin du joueur avant la mort."
+    }
+  }
+}
