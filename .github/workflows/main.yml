@@ -13,7 +13,7 @@ jobs:
       matrix:
         config:
           - name: Windows
-            os: os: windows-2022
+            os: windows-2022
     name: Build ${{ matrix.config.name }}
     runs-on: ${{ matrix.config.os }}
     steps:
